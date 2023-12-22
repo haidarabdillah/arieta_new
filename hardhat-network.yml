@@ -27,7 +27,7 @@ services:
       - db:database
     environment:
       ETHEREUM_JSONRPC_VARIANT: "geth"
-      ETHEREUM_JSONRPC_WS_URL: wss://sockettest.spectachain.io
+      ETHEREUM_JSONRPC_WS_URL: wss://stlgastupi.ariettachain.tech/ws
       INDEXER_DISABLE_PENDING_TRANSACTIONS_FETCHER: "true"
 
   visualizer:

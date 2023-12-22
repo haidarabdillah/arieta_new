@@ -27,10 +27,10 @@ services:
       - db:database
     environment:
       ETHEREUM_JSONRPC_VARIANT: "ganache"
-      ETHEREUM_JSONRPC_WS_URL: wss://sockettest.spectachain.io
+      ETHEREUM_JSONRPC_WS_URL: wss://stlgastupi.ariettachain.tech/ws
       INDEXER_DISABLE_INTERNAL_TRANSACTIONS_FETCHER: "true"
       INDEXER_DISABLE_PENDING_TRANSACTIONS_FETCHER: "true"
-      CHAIN_ID: "1503"
+      CHAIN_ID: "92522"
 
   visualizer:
     extends:
