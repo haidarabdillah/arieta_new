@@ -15,4 +15,4 @@ services:
     volumes:
       - ./logs/:/app/logs/
     ports:
-      - 4000:4000
+      - 3400:3000
