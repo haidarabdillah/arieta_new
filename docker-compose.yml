@@ -38,9 +38,9 @@ services:
     links:
       - db:database
     # environment:
-    #   ETHEREUM_JSONRPC_HTTP_URL: https://stlgastupi.ariettachain.tech/
-    #   ETHEREUM_JSONRPC_TRACE_URL: https://stlgastupi.ariettachain.tech/
-    #   ETHEREUM_JSONRPC_WS_URL: wss://stlgastupi.ariettachain.tech/ws
+    #   ETHEREUM_JSONRPC_HTTP_URL: https://mainnet.ariettachain.tech/
+    #   ETHEREUM_JSONRPC_TRACE_URL: https://mainnet.ariettachain.tech/
+    #   ETHEREUM_JSONRPC_WS_URL: wss://mainnet.ariettachain.tech/ws
     #   CHAIN_ID: '92522'
 
   visualizer:
