@@ -9,5 +9,5 @@ services:
     container_name: "frontend"
     env_file:
       - ../envs/common-frontend.env
-    ports:
-      - 3400:3000
+    # ports:
+    #   - 3400:3000
